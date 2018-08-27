@@ -3,7 +3,10 @@ title: Return a Sorted Array Without Changing the Original Array
 ---
 ## Return a Sorted Array Without Changing the Original Array
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/return-a-sorted-array-without-changing-the-original-array/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+return [].concat(arr).sort((a,b)=>a-b);
+
+
+
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
