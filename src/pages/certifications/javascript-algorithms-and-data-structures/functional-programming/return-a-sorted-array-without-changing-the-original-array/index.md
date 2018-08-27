@@ -3,6 +3,8 @@ title: Return a Sorted Array Without Changing the Original Array
 ---
 ## Return a Sorted Array Without Changing the Original Array
 
+var averageRating = watchList.filter(x => x.Director === “Christopher Nolan”).map(x => Number(x.imdbRating)).reduce((x1, x2) => x1 + x2) / watchList.filter(x => x.Director === “Christopher Nolan”).length;
+
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/return-a-sorted-array-without-changing-the-original-array/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
